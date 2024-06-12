@@ -1,0 +1,79 @@
+#jumbotron { 
+    background-image: url('landscape.jpg');
+    background-size: cover;
+    height: 40em; /* tidak guna unit px 600px, kalau buat responsive elakkan guna px*/
+    padding: 9.25em;  /* tidak guna unit px 130px*/
+}
+
+#jumbotron hr {
+    width: 7.25em;
+    margin: 1em auto; /* ketengahkan hr tersebut */
+    color: white;
+}
+
+.btn-transparent {
+    background-color: rgba(255,255,255,0.3);
+    color: black;
+}
+
+#features {
+    background-color: rgb(238,242,245) ;
+    color: #607788;
+}
+
+.th-title {
+    color: white !important;
+    font-size: 1.6rem !important;
+}
+
+.th-premium {
+    background-color: rgb(227,83,108) !important;
+}
+
+.th-standard {
+    background-color: rgb(62,199,224) !important;
+}
+
+.th-free {
+    background-color: rgb(120,207,190) !important;
+}
+
+.th-subtitle {
+    color: white !important;
+    font-size: 1.8rem !important;
+}
+
+.th-premium-sub {
+    background-color: rgba(227,83,108,0.7) !important;
+}
+
+.th-standard-sub {
+    background-color: rgba(62,199,224,0.7) !important;
+}
+
+.th-free-sub {
+    background-color: rgba(120,207,190,0.7) !important;
+}
+
+#teams h4 {
+    color: darkblue;
+}
+
+.btn-midnightblue {
+    background-color: midnightblue;
+    color: white;
+}
+
+footer ul li a {
+    text-decoration: none; /* bagi hilang underline */
+    color: darkgrey;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    font-size: 1.15rem;
+}
+
+footer p {
+    color: darkgrey;
+}
